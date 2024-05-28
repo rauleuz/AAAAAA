@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">CalmmyDown</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Sobre nós</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Sobre o projeto</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Contato</h1>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <input type="text" class="form-control" id="assunto" name="assunto" required>
+            </div>
+            <div class="form-group">
+                <label for="arquivo">Anexar Arquivo:</label>
+                <input type="file" class="form-control-file" id="arquivo" name="arquivo">
+            </div>
+            <div class="form-group">
+                <label for="data">Data:</label>
+                <input type="date" class="form-control" id="data" name="data" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <a href="index.html" class="btn btn-secondary">Voltar</a>
+        </form>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <p class="mb-0">Integrantes do Grupo:</p>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="FT_FELIPE.jpg" alt="Foto do Integrante 1" class="img-fluid">
+                    <p>Felipe Rocha</p>
+                    <a href="https://www.instagram.com/rocha005" class="text-secondary">Instagram / @rocha005</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="FT_CRIS.jpg" alt="Foto do Integrante 2" class="img-fluid">
+                    <p>Cristiano Gravino</p>
+                    <a href="https://www.instagram.com/cristiano_gravino?igshid=1td1t3hzvnzn5"
+                        class="text-secondary">Instagram /
+                        @cristiano_gravino</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="FT_RAUL.png" alt="Foto do Integrante 3" class="img-fluid">
+                    <p>Raul Euzébio</p>
+                    <a href="https://www.instagram.com/" class="text-secondary">Instagram / @rauleuz</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="FT_BERNARDO.jpg" alt="Foto do Integrante 4" class="img-fluid">
+                    <p>Bernardo Toro</p>
+                    <a href="https://www.instagram.com/b__toro" class="text-secondary">Instagram / @b__toro</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
